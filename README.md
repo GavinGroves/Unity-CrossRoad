@@ -1,6 +1,6 @@
 # Unity休闲手机游戏开发
 **MiniGame - 小青蛙跳**
-[试玩APK](EXE/CrossRoad.apk)
+[试玩APK](EXE/)
 - 控制青蛙避开障碍物
   - 长按大跳
   - 短按小跳
