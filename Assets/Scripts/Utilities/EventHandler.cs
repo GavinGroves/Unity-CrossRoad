@@ -1,0 +1,22 @@
+using System;
+
+public class EventHandler
+{
+    public static event Action<int> GetPointEvent;
+
+    public static void CallGetPointEvent(int point)
+    {
+        // if (GetPointEvent != null)
+        // {
+        //     GetPointEvent.Invoke(point);
+        // }
+        GetPointEvent?.Invoke(point);
+    }
+
+    public static event Action GameOverEvent;
+
+    public static void CallGameOverEvent()
+    {
+        GameOverEvent?.Invoke();
+    }
+}
